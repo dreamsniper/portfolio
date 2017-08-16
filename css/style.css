@@ -1,0 +1,68 @@
+@import url(href="https://fonts.googleapis.com/css?family=Bungee|Slabo+27px");
+body {
+  font-family: Slabo, serif;
+  background-color: #000;
+  color: #fff;
+}
+body h1,
+body h2,
+body h3 {
+  font-family: Bungee, sans-serif;
+  margin: 2rem;
+}
+body .jumbotron {
+  color: #fff;
+  background-image: url("https://raw.githubusercontent.com/dreamsniper/MMP100/master/images/july2-5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 4rem;
+}
+body .about {
+  font-size: 2rem;
+  background-color: rgba(107, 142, 35, 0.4);
+  padding: 0;
+}
+body .about h1 {
+  margin: 0 0 1.5rem 0;
+  padding: .5rem;
+  background-color: rgba(255, 0, 0, 0.6);
+  text-align: center;
+}
+body .about p {
+  padding: 1rem 2rem 1rem 2rem;
+}
+body .contact {
+  color: #000;
+}
+body caption {
+  margin: .5rem;
+}
+body ul li {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.navbar {
+  padding: 5px;
+  margin: 0;
+}
+
+.main-image {
+  margin: 0 auto;
+  border-radius: 8em;
+  border: 5px solid rgba(255, 0, 0, 0.6);
+}
+
+figcaption {
+  font-family: Bungee, sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-sizing: border-box;
+}
+
+.about,
+.portfolio,
+.contact {
+  margin-bottom: 2em;
+}
